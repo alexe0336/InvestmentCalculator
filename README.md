@@ -1,21 +1,46 @@
 # InvestmentCalculator
-This project creates a chart of your investment based on initial deposit, interest rate, years of investing and monthly investment amount.
-It solves the problem of calculating this on your own or asking your bank. When creating this project, I made a very easy to use and well-made user interface. This code could probably be condensed more. But as of writing this I am not sure in which ways or how to do that. The hardest thing to program for this code was the correct outputs. Creating tables in C++.
-I am satisfied with this program but would love for people to look over my code and suggest any improvements!
 
-How to run/use:
-Open in a terminal with GCC installed or Clang. Then you run it by creating a .exe file by doing:
-Clang:
-clang++ Calculator.cpp -o calc
+Welcome to the Investment Calculator! This project generates a detailed chart of your investment growth based on your initial deposit, interest rate, investment duration, and monthly contribution.
 
-or
+## Overview
 
-GCC:
-g++ Calculator.cpp -o calc
+This tool simplifies the process of forecasting your investments, eliminating the need for manual calculations or relying on your bank. The application features an intuitive and user-friendly interface, ensuring a seamless experience.
 
-than typing:
-./calc
+### Key Features:
+- **User-Friendly Interface**: Designed for ease of use.
+- **Accurate Calculations**: Ensures precise investment projections.
+- **Customizable Inputs**: Adjust initial deposit, interest rate, investment duration, and monthly contributions.
 
-Now you can insert the desired values and see the results.
-Please message if you have any questions.
+## Challenges & Reflections
 
+The most challenging aspect of this project was ensuring the accuracy of the output and creating tables in C++. While I'm satisfied with the current functionality, there's always room for improvement. I'd love to hear your feedback and suggestions for optimization!
+
+## Getting Started
+
+To run the Investment Calculator, follow these steps:
+
+1. **Prerequisites**:
+   - Ensure you have GCC or Clang installed on your system.
+
+2. **Compile the Code**:
+   - Using Clang:
+     ```sh
+     clang++ Calculator.cpp -o calc
+     ```
+   - Using GCC:
+     ```sh
+     g++ Calculator.cpp -o calc
+     ```
+
+3. **Run the Executable**:
+   ```sh
+   ./calc
+
+## Input Your Values:
+Enter the initial deposit, interest rate, years of investing, and monthly investment amount.
+View the generated investment chart.
+
+## Contributing
+
+I welcome contributions! If you have suggestions for improvement, feel free to fork the repository, make your changes, and submit a pull request. Your feedback is invaluable.
+Message me if you have any questions or need further assistance, please don't hesitate to reach out.
